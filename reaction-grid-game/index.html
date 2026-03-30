@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reaction Time Grid Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="app">
+        <h1>Reaction Time Game</h1>
+        <p id="status">Click Start to begin</p>
+
+        <div class="grid" id="grid">
+            <div class="box" data-index="0"></div>
+            <div class="box" data-index="1"></div>
+            <div class="box" data-index="2"></div>
+            <div class="box" data-index="3"></div>
+            <div class="box" data-index="4"></div>
+            <div class="box" data-index="5"></div>
+            <div class="box" data-index="6"></div>
+            <div class="box" data-index="7"></div>
+            <div class="box" data-index="8"></div>
+        </div>
+
+
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="resetBtn" disabled>Reset</button>
+        </div>
+
+        <h3>Reaction Time(ms)</h3>
+        <ul id="results"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
